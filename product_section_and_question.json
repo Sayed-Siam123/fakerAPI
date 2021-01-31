@@ -1,0 +1,437 @@
+{
+   "data":{
+      "purchase_query":[
+         {
+            "id":1,
+            "order":0,
+            "product_id":13,
+            "title":"Phone Evaluation",
+            "description":null,
+            "queries":[
+               {
+                  "quest":"Can you make and receive calls?",
+                  "type":"radio",
+                  "description":"Check if your phone has any issues with cellular network connectivity.",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Cellular Network is working fine",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Cellular Network has issues",
+                        "image_url":null,
+                        "value":"2800"
+                     }
+                  ],
+                  "qid":17
+               },
+               {
+                  "quest":"Tell us what you don't have with your phone.",
+                  "type":"check-box",
+                  "description":"Please select only what you don\u2019t have from following.",
+                  "is_requored":"0",
+                  "ansOpt":[
+                     {
+                        "text":"Authentic Charger is unavailable",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Authentic Earphones is unavailable",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Box with same IMEI is unavailable",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Valid Bill with same IMEI is unavailable",
+                        "image_url":null,
+                        "value":0
+                     }
+                  ],
+                  "qid":41
+               }
+            ]
+         },
+         {
+            "id":2,
+            "order":1,
+            "product_id":13,
+            "title":"Screen Condition",
+            "description":null,
+            "queries":[
+               {
+                  "quest":"Is your phone's touch screen functioning properly?",
+                  "type":"radio",
+                  "description":"Check if your phone has any issues with the touch screen.",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Touch is functioning",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Touch is malfunctioning",
+                        "image_url":null,
+                        "value":"3500"
+                     }
+                  ],
+                  "qid":32
+               },
+               {
+                  "quest":"Are there any Marks\/Dead Pixels on Screen?",
+                  "type":"img-radio",
+                  "description":"Check if your phone\u2019s screen has visible spots.",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Large\/Heavy visible spots on screen",
+                        "image_url":"questions\/largespots.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Multiple visible Spots on screen",
+                        "image_url":"questions\/multiplevisiblespots.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Minor discoloration or small spots on screen",
+                        "image_url":"questions\/minordiscolorationorsmallspots.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"No Spots found on screen",
+                        "image_url":"questions\/nosportsonscreen.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":7
+               },
+               {
+                  "quest":"Are there any visible lines on screen?",
+                  "type":"img-radio",
+                  "description":"Check if your phone\u2019s screen has visible lines.",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Display faded along corners",
+                        "image_url":"questions\/fadeddisplay.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Multiple visible line(s) on screen",
+                        "image_url":"questions\/multiplevisibleline.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Burn-in Shadow",
+                        "image_url":"questions\/burninshadow.png",
+                        "value":"2000"
+                     },
+                     {
+                        "text":"No lines on screen",
+                        "image_url":"questions\/nosportsonscreen.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":33
+               },
+               {
+                  "quest":"How's your screen's Physical condition?",
+                  "type":"img-radio",
+                  "description":"Check if your phone\u2019s Display Screen has defects.",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Screen cracked\/glass broken",
+                        "image_url":"questions\/damagedonedges.png",
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Heavy scratches on screen",
+                        "image_url":"questions\/heavyscratches.png",
+                        "value":"2000"
+                     },
+                     {
+                        "text":"1\/2 scratches on screen",
+                        "image_url":"questions\/12scratches.png",
+                        "value":"1000"
+                     },
+                     {
+                        "text":"No scratches on screen",
+                        "image_url":"questions\/nosportsonscreen.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":34
+               }
+            ]
+         },
+         {
+            "id":3,
+            "order":2,
+            "product_id":13,
+            "title":"Body Condition",
+            "description":null,
+            "queries":[
+               {
+                  "quest":"Are there any scratches on your Phone body?",
+                  "type":"img-radio",
+                  "description":"Check if there are scratches on phone body",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Major Scratches",
+                        "image_url":"questions\/majorsc.png",
+                        "value":"2000"
+                     },
+                     {
+                        "text":"Less than 2 scratches",
+                        "image_url":"questions\/lessthan2scratches.png",
+                        "value":"1000"
+                     },
+                     {
+                        "text":"No scratches",
+                        "image_url":"questions\/noscratch.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":35
+               },
+               {
+                  "quest":"Are there any scratches on your fingerprint button?",
+                  "type":"img-radio",
+                  "description":"Check for scratches on fingerprint button",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Scratches on button",
+                        "image_url":"questions\/scratchesonfingerbutton.png",
+                        "value":"2000"
+                     },
+                     {
+                        "text":"No scratches on button",
+                        "image_url":"questions\/fingerprintnoscractches.png",
+                        "value":0
+                     },
+                     {
+                        "text":"Not Applicable",
+                        "image_url":"questions\/nosportsonscreen.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":25
+               },
+               {
+                  "quest":"Are there any dents on your Phone body?",
+                  "type":"img-radio",
+                  "description":"Check if there are dents on phone body",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Multiple\/heavy visible body dents",
+                        "image_url":"questions\/heavy bodydent.png",
+                        "value":"3000"
+                     },
+                     {
+                        "text":"2 or less minor body dents",
+                        "image_url":"questions\/2orlessminordent.png",
+                        "value":"1000"
+                     },
+                     {
+                        "text":"No dents",
+                        "image_url":"questions\/noscratch.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":37
+               },
+               {
+                  "quest":"Do you have a Bent Phone or Loose Screen?",
+                  "type":"img-radio",
+                  "description":"Check if your phone is bent or display screen is loose",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Bent\/Curved Panel",
+                        "image_url":"questions\/bentcurvedpanel.png",
+                        "value":"5000"
+                     },
+                     {
+                        "text":"Screen is loose from phone body",
+                        "image_url":"questions\/loosescreen.png",
+                        "value":"5000"
+                     },
+                     {
+                        "text":"No bent\/loose screen",
+                        "image_url":"questions\/notbent.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":28
+               },
+               {
+                  "quest":"How\u2019s your Phone\u2019s Side\/Back Panel?",
+                  "type":"img-radio",
+                  "description":"Check if your phone\u2019s side & back panels have any defects",
+                  "is_requored":"1",
+                  "ansOpt":[
+                     {
+                        "text":"Cracked\/broken side or back panel",
+                        "image_url":"questions\/crackedbroken.png",
+                        "value":"3000"
+                     },
+                     {
+                        "text":"Side or back panel is missing",
+                        "image_url":"questions\/missingside.png",
+                        "value":"1200"
+                     },
+                     {
+                        "text":"No defects on side or back panel",
+                        "image_url":"questions\/notbent.png",
+                        "value":0
+                     }
+                  ],
+                  "qid":39
+               }
+            ]
+         },
+         {
+            "id":4,
+            "order":3,
+            "product_id":13,
+            "title":"Functional or Physical Condition",
+            "description":null,
+            "queries":[
+               {
+                  "quest":"Tell us if you have any problems mentioned below.",
+                  "type":"check-box",
+                  "is_requored":"0",
+                  "ansOpt":[
+                     {
+                        "text":"Front camera is flawed",
+                        "image_url":null,
+                        "value":"2500"
+                     },
+                     {
+                        "text":"Back camera is flawed",
+                        "image_url":null,
+                        "value":"3500"
+                     },
+                     {
+                        "text":"Volume button is flawed",
+                        "image_url":null,
+                        "value":"800"
+                     },
+                     {
+                        "text":"Fingerprint sensor is flawed",
+                        "image_url":null,
+                        "value":"2000"
+                     },
+                     {
+                        "text":"Wi-Fi is flawed",
+                        "image_url":null,
+                        "value":"3000"
+                     },
+                     {
+                        "text":"Battery is flawed",
+                        "image_url":null,
+                        "value":"1200"
+                     },
+                     {
+                        "text":"Power Button is flawed",
+                        "image_url":null,
+                        "value":"2500"
+                     },
+                     {
+                        "text":"Changing port is flawed",
+                        "image_url":null,
+                        "value":"1500"
+                     },
+                     {
+                        "text":"Face ID Sensor is flawed",
+                        "image_url":null,
+                        "value":0
+                     },
+                     {
+                        "text":"Gyroscope is flawed",
+                        "image_url":null,
+                        "value":"3000"
+                     },
+                     {
+                        "text":"Proximity Sensor is flawed",
+                        "image_url":null,
+                        "value":"3000"
+                     },
+                     {
+                        "text":"Bluetooth is flawed",
+                        "image_url":null,
+                        "value":"3000"
+                     },
+                     {
+                        "text":"Speaker is flawed",
+                        "image_url":null,
+                        "value":"1000"
+                     },
+                     {
+                        "text":"Mouth Piece is flawed",
+                        "image_url":null,
+                        "value":"1500"
+                     },
+                     {
+                        "text":"Earpiece Speaker is flawed",
+                        "image_url":null,
+                        "value":"1000"
+                     },
+                     {
+                        "text":"Silent Button is flawed",
+                        "image_url":null,
+                        "value":0
+                     }
+                  ],
+                  "qid":40,
+                  "description":"Please select only the Problems that your phone has"
+               }
+            ]
+         }
+      ],
+      "additional_purchase_query":[
+         {
+            "id":172,
+            "product_id":13,
+            "check_amenity_covenant":1,
+            "no_amenity_covenant_value":1000,
+            "amenity_covenant_info":[
+               {
+                  "amenity_name":"Product\u2019s warranty duration",
+                  "key_value":[
+                     {
+                        "key":"More than 9 months\u2019 warranty",
+                        "value":0
+                     },
+                     {
+                        "key":"More than 6 months\u2019 warranty",
+                        "value":"500"
+                     },
+                     {
+                        "key":"Less than 6 months\u2019 warranty",
+                        "value":"500"
+                     }
+                  ]
+               }
+            ],
+            "check_required_images":0,
+            "required_images":[
+               
+            ]
+         }
+      ]
+   },
+   "success":true
+}
